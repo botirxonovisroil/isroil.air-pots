@@ -1,0 +1,280 @@
+@media(max-width:1440px){
+ .tel_info{
+  display: flex;
+  gap: 30px;
+ }
+}
+@media(max-width:1320px){
+ .tel_info{
+  display: flex;
+  gap: 30px;
+ }
+
+}
+@media(max-width:1290px){
+ .tel_info{
+flex-direction: column;
+align-items: center;
+}
+.footer_menyu{
+  flex-wrap: wrap;
+  
+}
+@media(max-width:1140px){
+    .airports1{
+      flex-direction: column;
+      align-items: center;
+   }
+   .airports2{
+    flex-direction: column;
+    align-items: center;
+   }
+   .airports3{
+    flex-direction: column;
+    align-items: center;
+   }
+   .tel_info{
+    flex-direction: column;
+    align-items: center;
+   }
+   .before, .after{
+    width: 0px;
+  }
+}
+@media(max-width:1024px){
+    .telefon{
+     gap: 15px;
+    }
+    .tel_info{
+     flex-direction: column;
+     align-items: center;
+    }
+    .before, .after{
+      width: 0px;
+    }
+}
+@media(max-width:992px){
+ .tel_info{
+  flex-direction: column;
+  align-items: center;
+ }
+ }
+
+@media(max-width:768px){
+.section{
+  max-width: 1140px;
+  height: 60vh;
+  width: 100%;
+}
+
+}
+@media(max-width:736px){}
+@media(max-width:734px){}
+@media(max-width:684px){
+   .airports1 img p{
+    width: 100%;
+   }
+   .airports1 img p{
+ width: 100%;
+}
+.tel_info{
+ flex-direction: column;
+ align-items: center;
+}
+
+.nav_link2{
+ gap: 30px;
+}
+.section{
+ max-width: 1140px;
+ height: 70vh;
+ width: 100%;
+}
+.sec_h1{
+  font-size: 80px;
+ line-height: 40px;
+} 
+}
+@media(max-width:667px){
+ .nav{
+   
+   flex-wrap:  wrap;
+justify-content: center;
+gap: 30px;
+ }
+.footer_menyu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.airports1{
+flex-direction: column;
+align-items: center;
+}
+.airports2 p{
+  margin-top: 20px;
+  margin-left: 0;
+}
+}
+@media(max-width:576px){
+.nav{
+  gap: 5px;
+}
+.airports1{
+ 
+ flex-direction: column;
+ align-items: center;
+} 
+.telefon{
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.tel_info{
+  gap: 30px;
+}
+.footer_menyu{
+padding-top: 10px;
+flex-direction: column;
+gap: 10px;
+}
+.airports1  p{
+  font-size: 18px;
+  line-height: 20px;
+  width: 444px;
+ text-align: justify;
+}
+.airports1 img {
+  width: 80%;
+}
+.airports1{
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.airports2  p,
+.airports3  p{
+  font-size: 18px;
+  line-height: 20px;
+  width: 444px;
+ text-align: justify;
+
+}
+.airports2 img{
+  width: 80%;
+}
+.airports3 img{
+  width: 50%;
+}
+.airports2{
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.section{
+  height: 50vh;
+  width: 100%;
+}
+.sec_h1{
+  font-size: 60px;
+    line-height: 20px;
+} 
+}
+}
+@media(max-width:414px){
+  .list{
+    font-size: 14px;
+    line-height: 15px;
+  }
+  .logo{
+    width: 70px;
+  }
+   .nav{
+    flex-direction:column ;
+    align-items: center;
+   } 
+  .nav_link1{
+    flex-direction:column ;
+    align-items: center;
+  }
+  .nav_link2{
+   margin:0 10px ;
+  }
+  .footer_menyu{
+   padding-top: 8px;
+  }
+  .airports1  p{
+    font-size: 16px;
+    line-height: 18px;
+    width: 270px;
+  }
+  .airports3  p{
+    font-size: 16px;
+    line-height: 18px;
+    width: 350px;
+    padding: 10px;
+}
+.airports2  p{
+  font-size: 16px;
+  line-height: 18px;
+  width: 270px;
+}
+  }
+@media(max-width:412px){
+  .section{
+    height: 30vh;
+    width: 100%;
+  }
+  .sec_h1{
+    font-size: 50px;
+    line-height: 5px;
+}   
+  } 
+@media(max-width:375px){
+  .airports2  p{
+    font-size: 16px;
+    line-height: 18px;
+    width: 250px;
+}
+.airports3  p{
+  font-size: 16px;
+    line-height: 18px;
+    width: 270px;
+}  
+  }
+@media(max-width:360px){
+  .sec_h1{
+    font-size: 45px;
+  }
+}
+@media(max-width:320px){
+    .footer_list{
+      font-size: 14px;
+    line-height: 18px;
+    }
+    .airports1 p{
+      font-size: 14px;
+    line-height: 16px;
+    width: 253px;
+    margin: 5px;
+    }
+   .section_a{
+     width: 160px;
+     font-size: 16px;
+     height: 40px;
+   }
+   }
+@media(max-width:280px){
+  .footer_list{
+    font-size: 12px;
+  line-height: 18px;
+  }
+  .sec_h1{
+    font-size: 35px;
+  }
+  .nav_link1{
+    width: 100%;
+  }
+  
+}
